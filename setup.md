@@ -33,9 +33,6 @@ To SSH into your EC2 instance:
 1. ```cd``` to the location of your .pem key
 2. Run ```chmod 600 mykey.pem``` to lock down your SSH key
 3. Run ```ssh -i /path/my-key-pair.pem ubuntu@<your ip address>```
-
-[![asciicast](https://asciinema.org/a/P5yUSD5AKcEPSoaerMDPA54Hn.svg)](https://asciinema.org/a/P5yUSD5AKcEPSoaerMDPA54Hn)
-
 4. Bam!!! Have fun. Don't break anything, but if you do. Support is available [here](https://www.phooni.com/contact/).
 
 ## Links
