@@ -35,6 +35,57 @@ To SSH into your EC2 instance:
 3. Run ```ssh -i /path/my-key-pair.pem ubuntu@<your ip address>```
 4. Bam!!! Have fun. Don't break anything, but if you do. Support is available [here](https://www.phooni.com/contact/).
 
+## Where is MySQL Password?
+
+To SSH into your EC2 instance:
+
+1. Type ```sudo su -``` in terminal after SSH into your EC2 instance
+2. ```cat /var/log/mysql_password.log``` to reveal your MySQL root password
+
+## How change MySQL Password?
+
+1. Start MySQL/MariaDB without grant tables option.This will allow us to login to MySQL/MariaDB as a root user without a password
+
+```bash
+$ sudo systemctl stop mysql
+$ sudo mkdir -p /var/run/mysqld
+$ sudo chown mysql:mysql /var/run/mysqld
+$ sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking &
+```
+
+2. Confirm that the MySQL/MariaDB daemon is up and running
+
+```bash
+ps aux | grep mysqld
+```
+
+3. At this point, login to MySQL/MariaDB should not require any password
+
+```bash
+mysql -u root
+```
+
+Execute the following SQL commands to reset your administrator password
+
+```bash
+FLUSH PRIVILEGES;
+USE mysql; 
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'mYN3w_p@ssw0rD$';
+quit
+```
+
+4. Restart the MySQL/MariaDB server
+
+```bash
+sudo pkill mysqld && sudo systemctl start mysql
+```
+
+5. At this point you should be able to login to the MySQL/MariaDB server with the password as set in the step 3
+
+```bash
+mysql -u root --password='mYN3w_p@ssw0rD$'
+```
+
 ## Links
 
 1. [Product Page](https://www.phooni.com/stacks/lamp/)
