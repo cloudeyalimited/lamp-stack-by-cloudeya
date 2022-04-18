@@ -32,7 +32,7 @@ To SSH into your EC2 instance:
 
 1. ```cd``` to the location of your .pem key
 2. Run ```chmod 600 mykey.pem``` to lock down your SSH key
-3. Run ```ssh -i /path/my-key-pair.pem ubuntu@<your ip address>```
+3. Run ```ssh -i /path/my-key-pair.pem ec2-user@<your ip address>```
 4. Bam!!! Have fun. Don't break anything, but if you do. Support is available [here](https://www.moatsystems.com/contact/).
 
 ## Where is MySQL Password?
@@ -68,6 +68,9 @@ mysql -u root
 Execute the following SQL commands to reset your administrator password
 
 ```bash
+## The password below is precisely for this documentation; it's invalid.
+## The password in your Amazon Machine Image (AMI) will be unique.
+
 FLUSH PRIVILEGES;
 USE mysql; 
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'mYN3w_p@ssw0rD$';
@@ -83,6 +86,9 @@ sudo pkill mysqld && sudo systemctl start mysql
 5. At this point you should be able to login to the MySQL/MariaDB server with the password as set in the step 3
 
 ```bash
+## The password below is precisely for this documentation; it's invalid.
+## The password in your Amazon Machine Image (AMI) will be unique.
+
 mysql -u root --password='mYN3w_p@ssw0rD$'
 ```
 
@@ -92,6 +98,7 @@ mysql -u root --password='mYN3w_p@ssw0rD$'
 2. [EULA](MoatSystemsEULA.txt)
 3. [Knowledgebase](https://github.com/moatsystems/lamp-stack-by-moatsystems/-/wikis/home)
 4. [Issue Tracking](https://github.com/moatsystems/lamp-stack-by-moatsystems/-/issues)
+5. [Changelog](changelog.md)
 
 ## Support
 

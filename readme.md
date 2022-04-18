@@ -18,8 +18,8 @@ LAMP Stack by Moat Systems is pre-configured with the following technologies:
 
 1. **Apache**: a fast and light-weight web server
 2. **Certbot**: is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.
-3. **Ubuntu**: applies Kernel Self Protection measures, assures control flow integrity and adds stack-clash protection for systemic forward-looking enterprise security.
-4. **PHP7**: drops many [deprecated functions](https://secure.php.net/manual/en/migration70.deprecated.php) in favor of [new, modernized features](https://secure.php.net/manual/en/migration70.new-features.php). Additionally, [PHP 5.6](https://secure.php.net/supported-versions.php) will stop receiving security updates on December 31, 2018.
+3. **Amazon Linux 2**: comes with an updated Linux kernel, C library, compiler, and tools. In addition, Amazon Linux 2 provides the ability to install additional software packages through the extras mechanism.
+4. **PHP 8**: drops many [deprecated functions](https://secure.php.net/manual/en/migration70.deprecated.php) in favor of [new, modernized features](https://www.php.net/manual/en/migration80.new-features.php). Additionally, [PHP 7.4](https://www.php.net/supported-versions.php) will stop receiving security updates on November 28, 2022.
 5. **MySQL (MariaDB)**: is an open source relational database management system (DBMS) that is a compatible drop-in replacement for the widely used MySQL database technology.
 6. **Composer**: helps you declare, manage, and install dependencies of PHP projects.
 
@@ -33,6 +33,7 @@ For setup instructions, click [here](setup.md).
 2. [EULA](MoatSystemsEULA.txt)
 3. [Knowledgebase](https://github.com/moatsystems/lamp-stack-by-moatsystems/-/wikis/home)
 4. [Issue Tracking](https://github.com/moatsystems/lamp-stack-by-moatsystems/-/issues)
+5. [Changelog](changelog.md)
 
 ## Support
 
