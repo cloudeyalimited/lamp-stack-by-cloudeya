@@ -32,8 +32,9 @@ To SSH into your EC2 instance:
 
 1. ```cd``` to the location of your .pem key
 2. Run ```chmod 600 mykey.pem``` to lock down your SSH key
-3. Run ```ssh -i /path/my-key-pair.pem ec2-user@<your ip address>```
-4. Bam!!! Have fun. Don't break anything, but if you do. Support is available [here](https://www.moatsystems.com/contact/).
+3. Run ```ssh -i /path/my-key-pair.pem ec2-user@<your ip address>``` ## Amazon Linux 2 Version
+4. Run ```ssh -i /path/my-key-pair.pem ubuntu@<your ip address>``` ## Ubuntu Version
+5. Bam!!! Have fun. Don't break anything, but if you do. Support is available [here](https://www.moatsystems.com/contact/).
 
 ## Where is MySQL Password?
 

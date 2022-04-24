@@ -16,9 +16,9 @@ Moat Systems packages applications following industry standards, and continuousl
 
 LAMP Stack by Moat Systems is pre-configured with the following technologies:
 
-1. **Apache**: a fast and light-weight web server
+1. **Apache**: a fast and light-weight web server.
 2. **Certbot**: is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.
-3. **Amazon Linux 2**: comes with an updated Linux kernel, C library, compiler, and tools. In addition, Amazon Linux 2 provides the ability to install additional software packages through the extras mechanism.
+3. **Amazon Linux 2** or **Ubuntu**.
 4. **PHP 8**: drops many [deprecated functions](https://secure.php.net/manual/en/migration70.deprecated.php) in favor of [new, modernized features](https://www.php.net/manual/en/migration80.new-features.php). Additionally, [PHP 7.4](https://www.php.net/supported-versions.php) will stop receiving security updates on November 28, 2022.
 5. **MySQL (MariaDB)**: is an open source relational database management system (DBMS) that is a compatible drop-in replacement for the widely used MySQL database technology.
 6. **Composer**: helps you declare, manage, and install dependencies of PHP projects.
