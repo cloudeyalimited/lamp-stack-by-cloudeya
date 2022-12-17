@@ -1,5 +1,5 @@
-LAMP Stack by Moat Systems
-==========================
+LAMP Stack by Cloudeya Limited
+==============================
 
 This file is used to list changes made in each version.
 
