@@ -3,6 +3,11 @@ LAMP Stack by Cloudeya Limited
 
 This file is used to list changes made in each version.
 
+0.0.1-r05 – 11/11/2023
+-----
+- [Finbarrs Oketunji](https://finbarrs.eu) - Ubuntu 22.04: Amazon EBS Volumes gp3 support
+- [Finbarrs Oketunji](https://finbarrs.eu) - Amazon Linux 2: Amazon EBS Volumes gp3 support
+
 0.0.1-r04 – 24/04/2022
 -----
 - [Finbarrs Oketunji](https://finbarrs.eu) - Ubuntu 22.04 Version Added
