@@ -18,10 +18,11 @@ LAMP Stack by Cloudeya is pre-configured with the following technologies:
 
 1. **Apache**: a fast and light-weight web server.
 2. **Certbot**: is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.
-3. **Amazon Linux 2** or **Ubuntu**.
+3. **Amazon Linux 2023** or **Ubuntu 24.04**.
 4. **PHP 8**: drops many [deprecated functions](https://secure.php.net/manual/en/migration70.deprecated.php) in favor of [new, modernized features](https://www.php.net/manual/en/migration80.new-features.php). Additionally, [PHP 7.4](https://www.php.net/supported-versions.php) will stop receiving security updates on November 28, 2022.
 5. **MySQL (MariaDB)**: is an open source relational database management system (DBMS) that is a compatible drop-in replacement for the widely used MySQL database technology.
 6. **Composer**: helps you declare, manage, and install dependencies of PHP projects.
+7. **Node.js**: a JavaScript runtime built on Chrome's V8 JavaScript engine, allowing you to run JavaScript on the server-side.
 
 ## Installation and Usage
 
@@ -49,4 +50,4 @@ The documentation is published under [BSD 3-Clause License](license.txt).
 
 ## Copyright
 
-(c) 2020 - 2023 [Cloudeya Limited](https://cloudeya.org).
+(c) 2020 - 2024 [Cloudeya Limited](https://cloudeya.org).
