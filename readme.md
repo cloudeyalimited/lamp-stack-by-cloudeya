@@ -50,4 +50,4 @@ The documentation is published under [BSD 3-Clause License](license.txt).
 
 ## Copyright
 
-(c) 2020 - 2024 [Cloudeya Limited](https://cloudeya.org).
+(c) 2020 - 2025 [Cloudeya Limited](https://cloudeya.org).
