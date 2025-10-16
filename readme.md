@@ -20,7 +20,7 @@ LAMP Stack by Cloudeya is pre-configured with the following technologies:
 + **PHP-FPM**: PHP FastCGI Process Manager for handling PHP requests
 + **MariaDB**: An open source relational database management system (DBMS) that is a compatible drop-in replacement for MySQL
 + **Redis**: An in-memory data structure store used as a database, cache, and message broker
-+ **PHP**: PHP 8.3.26 (cgi-fcgi) (built: Sep 23 2025 17:57:26) - A popular server-side scripting language designed for web development
++ **PHP**: PHP 8.3.26 (cgi-fcgi) (built: Sep 23 2025 17:57:26): A popular server-side scripting language designed for web development
 + **Composer**: A dependency manager for PHP that helps you declare, manage, and install dependencies of PHP projects
 + **Node.js** v18.20.8: A JavaScript runtime built on Chrome's V8 JavaScript engine, allowing you to run JavaScript on the server-side
 
