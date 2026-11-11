@@ -17,12 +17,13 @@ Cloudeya packages applications following industry standards, and continuously mo
 LAMP Stack by Cloudeya is pre-configured with the following technologies:
 
 + **Apache**: A fast and light-weight web server
-+ **PHP-FPM**: PHP FastCGI Process Manager for handling PHP requests
-+ **MariaDB**: An open source relational database management system (DBMS) that is a compatible drop-in replacement for MySQL
++ **PHP 8.4-FPM**: PHP FastCGI Process Manager for handling PHP requests
++ **MariaDB 10.11**: An open source relational database management system (DBMS) that is a compatible drop-in replacement for MySQL
 + **Redis**: An in-memory data structure store used as a database, cache, and message broker
-+ **PHP 8.3.26 (cgi-fcgi) (built: Sep 23 2025 17:57:26)**: A popular server-side scripting language designed for web development
++ **Certbot**: A free, automated client for obtaining and renewing Let's Encrypt SSL/TLS certificates
++ **Node.js** v22: A JavaScript runtime built on Chrome's V8 JavaScript engine, allowing you to run JavaScript on the server-side
++ **PM2**: A production process manager for Node.js applications
 + **Composer**: A dependency manager for PHP that helps you declare, manage, and install dependencies of PHP projects
-+ **Node.js** v18.20.8: A JavaScript runtime built on Chrome's V8 JavaScript engine, allowing you to run JavaScript on the server-side
 
 ## Installation and Usage
 
@@ -50,4 +51,4 @@ The documentation is published under [BSD 3-Clause License](license.txt).
 
 ## Copyright
 
-(c) 2020 - 2025 [Cloudeya Limited](https://cloudeya.org).
+(c) 2020 - 2026 [Cloudeya Limited](https://cloudeya.org).
